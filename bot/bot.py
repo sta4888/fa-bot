@@ -1,9 +1,14 @@
 import logging
+import os
 from aiogram import Bot, Dispatcher, types
 from aiogram.contrib.fsm_storage.memory import MemoryStorage
 from aiogram.utils import executor
+from dotenv import load_dotenv
 
-API_TOKEN = 'YOUR_API_TOKEN'
+# Загрузка переменных окружения из .env файла
+load_dotenv()
+
+API_TOKEN = os.getenv('API_TOKEN')
 
 logging.basicConfig(level=logging.INFO)
 
