@@ -1,0 +1,6 @@
+aiogram==2.20
+SQLAlchemy==1.4
+alembic==1.7
+psycopg2-binary==2.9
+celery==5.2
+redis==4.0
