@@ -1,7 +1,8 @@
-aiogram==2.20
+aiogram>=3.0.0
+python-dotenv
+aiogram-calendar
 SQLAlchemy==1.4
 alembic==1.7
 psycopg2-binary==2.9
 celery==5.2
 redis==4.0
-python-dotenv==0.20.0
